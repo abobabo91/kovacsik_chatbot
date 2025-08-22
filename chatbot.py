@@ -22,7 +22,7 @@ st.title("📄 Ask About Startups")
 # =========================
 
 # Allowed upload types for the sidebar uploader (per your request)
-ALLOWED_EXTENSIONS = {".pdf", ".txt", ".md", ".docx", ".xlsx", '.csv'}
+ALLOWED_EXTENSIONS = {".pdf", ".txt", ".md", ".docx", ".xlsx", '.csv', '.json'}
 
 # Local folder containing your documents for the initial ingest
 FOLDER_PATH = "G:/My Drive/work/mi/Input RAG/files"
