@@ -25,7 +25,7 @@ st.title("📄 Ask About Startups")
 ALLOWED_EXTENSIONS = {".pdf", ".txt", ".md", ".docx", ".xlsx", '.csv', '.json'}
 
 # Local folder containing your documents for the initial ingest
-FOLDER_PATH = "G:/My Drive/work/mi/Input RAG/files"
+FOLDER_PATH = "G:\My Drive\work\kovacsik\databases\ragfiles"
 CONFIG_PATH = "config.json"
 
 # Supported extensions for the *vector store* creation (keep broad for initial ingest)
@@ -43,7 +43,7 @@ MODEL_CHOICES = [
     "gpt-4o",
     "gpt-4o-mini",
 ]
-DEFAULT_MODEL = "gpt-4o"
+DEFAULT_MODEL = "gpt-5-nano"
 
 
 # =========================
